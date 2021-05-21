@@ -1,0 +1,119 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  object-fit: contain;
+  width: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: #cd9042;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+  padding: 6px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+  text-decoration: none !important;
+  color: white;
+}
+
+.header__optionLineTwo {
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  color: white;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__basketno {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 750;
+  text-decoration: none;
+  color: white;
+  margin-bottom: -2px;
+  margin-top: -10px;
+}
+
+.header__basketCount {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none !important;
+  margin-right: 5px;
+}
+
+.header__profiletext {
+  margin-left: -10px;
+}
+
+.header__profile > .MuiSvgIcon-root {
+  margin-top: -12px;
+  color: #cd9042;
+  height: 27px !important;
+  width: 27px !important;
+}
+
+.header__basketCount > .MuiSvgIcon-root {
+  width: 40px !important;
+  height: 40px !important;
+  margin-left: 5px;
+  color: #cd9042;
+}
+
+.basket__text {
+  margin-right: 5px;
+}
+
+.header__menu {
+  margin-left: 5px;
+  margin-right: -12px;
+  margin-bottom: 4px;
+  padding: 5px 5px 2px 5px;
+  color: white;
+  display: flex;
+  text-decoration: none !important;
+}
